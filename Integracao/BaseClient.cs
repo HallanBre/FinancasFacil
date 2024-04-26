@@ -5,7 +5,7 @@ namespace FinancasFacil
     public  class BaseClient
     {
         static readonly HttpClient _client = new HttpClient();
-        string _baseUrl = "https://q55q37rx-7029.brs.devtunnels.ms/";
+        string _baseUrl = "https://jq8d6sq2-7029.brs.devtunnels.ms/";
                            
         public async Task<HttpResponseMessage> GetShare(string shareSymbol) 
         {

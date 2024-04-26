@@ -24,7 +24,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Grid.Row="0" Grid.Column="0">Nome:</Label>
-                <Label Grid.Row="0" Grid.Column="1" Text="João da Silva"></Label>
+                <Label Grid.Row="0" Grid.Column="1" Text="Alan"></Label>
                 
             </Grid>
 
@@ -39,10 +39,10 @@
                 MaxLength="10"
                 Text=""/>
             <Button
-                x:Name="BuscarInformacoes"
+                x:Name="CliqueManda"
                 Text="Ok" 
                 SemanticProperties.Hint="Busca Informação"
-                Clicked="CliqueBuscarInformacoes"
+                Clicked="CliqueMandas"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
